@@ -11,6 +11,7 @@ public class Utilisateur {
 	private int id;
 	private String nom;
 	private String prenom;
+	private String telephone;
 
 	/* _______________ ctors _________________________ */
 
@@ -23,8 +24,6 @@ public class Utilisateur {
 		this.nom = nom;
 		this.prenom = prenom;
 	}
-	
-	
 
 	public Utilisateur(String nom, String prenom) {
 		super();
@@ -57,5 +56,15 @@ public class Utilisateur {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
+
+	public String getTelephone() {
+		return telephone;
+	}
+
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
+	}
+	
+	
 
 }// end class
